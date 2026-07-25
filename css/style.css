@@ -113,13 +113,12 @@ header .container{
 }
 
 .logo img{
-
-    height:82px;
-
-    width:auto;
-
+.logo img{
+    width:450px;
+    height:auto;
+    max-height:170px;
+    object-fit:contain;
     display:block;
-
     transition:.3s;
 
 }
